@@ -1,0 +1,41 @@
+.sidebarLeft{
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    background-color: #1890ff;
+    z-index: 999;
+}
+.sidebarLeft:hover >*{
+    color: #fff;
+}
+
+.sidebarleft__menu {
+    background-color: #1890ff !important;
+    border: 0;
+    color: #fff;
+}
+.headerTop{
+    display: flex;
+    justify-content:space-between;
+    border-bottom: 1px solid #cacaca;
+}
+.header{
+    display: flex;
+    align-items: center;
+    
+}
+.headerItem{
+    display: block;
+    padding: 0 25px 0 10px;
+    line-height: 1;
+    cursor: pointer;
+}
+.headerItem:first-child{
+    border-right: 1px solid #666;
+}
+.auth{
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+    cursor: pointer;
+}
